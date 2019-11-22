@@ -12,12 +12,18 @@
     - example_2d_poses_dataframe.pickle.xz
     - example_3d_pose_tracks_dataframe.pickle.xz
 
-3. create a virtual environment running python 3.x
+3. create a virtual environment running python 3.x 
+    (naming the virtual env "3d" here; substitute with whatever you'd like)
 
     - example using an anaconda distribution:
 
     $ conda create -n 3d python=3.7.4
+    $ conda activate 3d
 
 4. install dependencies
 
     $ pip install -r requirements.txt
+
+When you're finished, deactivate your virtual env
+
+    $ conda deactivate
