@@ -1,0 +1,23 @@
+
+1. create a file named "data" in your working directory
+
+2. add private data files to the "data" directory (provided by wildflower schools)
+
+    files to request:
+
+    - camera01_cal.json
+    - camera02_cal.json
+    - camera03_cal.json
+    - camera04_cal.json
+    - example_2d_poses_dataframe.pickle.xz
+    - example_3d_pose_tracks_dataframe.pickle.xz
+
+3. create a virtual environment running python 3.x
+
+    - example using an anaconda distribution:
+
+    $ conda create -n 3d python=3.7.4
+
+4. install dependencies
+
+    $ pip install -r requirements.txt
