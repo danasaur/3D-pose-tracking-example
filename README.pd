@@ -12,6 +12,10 @@
     - example_2d_poses_dataframe.pickle.xz
     - example_3d_pose_tracks_dataframe.pickle.xz
 
+    once we refactor expected input to current 2d pose extraction output:
+    - alphapose-results-01.json
+    - alphapose-results-02.json
+
 3. create a virtual environment running python 3.x 
 
     - example using an anaconda distribution:
@@ -22,7 +26,7 @@
     (naming the virtual env above "3d"; 
     substitute with whatever you'd like)
 
-4. install dependencies
+4. install dependencies (conda won't be able to find our custom wildflower packages)
 
     $ pip install -r requirements.txt
 
