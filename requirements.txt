@@ -1,2 +1,1 @@
--e git+git://github.com/danasaur/smc_kalman.git@fd29c0ff425bf578a864568b96c2b1a99c27d6f4#egg=smc_kalman
--e git+git://github.com/danasaur/cvutilities.git@808b6753db4aabcbc30753efc42c2e0d5c682914#egg=cvutilities
+wf-pose-tracking-3d
